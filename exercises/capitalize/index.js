@@ -11,7 +11,7 @@
 
 //slice method .slice(1)
 //str[0].toUpperCase()
-//His 2nd Solution
+//His 2nd Solution / not strongest choice
 function capitalize(str) {
     let result = str[0].toUpperCase()
 
@@ -22,7 +22,7 @@ function capitalize(str) {
             result += str[i]
         }
     }
-    
+
     return result
 }
 
