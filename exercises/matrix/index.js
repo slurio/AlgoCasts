@@ -55,7 +55,6 @@ function matrix(n) {
             counter ++
         }
         startColumn++
-
     }
 
     return results
