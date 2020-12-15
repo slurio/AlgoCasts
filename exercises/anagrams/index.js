@@ -12,13 +12,6 @@
 //to remove ! and space   .replace(/[^\w]/g, "")
 //toLowerCase()
 function anagrams(stringA, stringB) {
-    // if (cleanString(stringA) === cleanString(stringB)) {
-    //     return true
-    // } else {
-    //     return false
-    // }
-
-    // return (cleanString(stringA) === cleanString(stringB)) ? true : false
 
     return cleanString(stringA) === cleanString(stringB)
 }
