@@ -18,6 +18,7 @@ function anagrams(stringA, stringB) {
 
 //helper method
 function cleanString(str) {
+    //regular expression
     return str.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("")
 }
 
